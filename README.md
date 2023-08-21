@@ -2,33 +2,20 @@
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name=" Rental-Market-Data-San-Fran"></a>
-<img src="https://github.com/Nievz/Project_One_Draft/blob/main/Images/Banner.png">
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="https://github.com/Nievz/Crypto_Clustering/blob/main/Images/cryptocurrency.png" alt="Logo" width="200" height="200"> 
-  </a>
-
-<h3 align="center"> Crypto Clustering</h3>
-
-</div>
-
-
-
+<img src="https://github.com/Nievz/Crypto_Clustering/blob/main/Images/coins.png">
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="https://github.com/Nievz/Crypto_Clustering/blob/main/Images/giphy.gif" alt="Logo" width="1000" height="600">
-  <p align="center">
+  <p align="center"> 
     The purpose of this analysis is to groups cryptocurrencies according to their performance over various time periods. We then graph the results so that the performance can be represented visually. Using the original data, we determine the optimal value for k using the elbow method. Using the K-means algorithm and the optimal value for k, we cluster the cryptocurrencies based on the supplied price changes of the cryptocurrencies. Then, using PCA, the features are reduced to three principal components. Lastly, we conduct a visual analysis of the cluster analysis results by comparing the outcome with and without optimization techniques. 
   </p>
 
   <p align="center" style="display: flex;" >
+<img src="https://github.com/Nievz/Crypto_Clustering/blob/main/Images/cryptocurrency.png" alt="Logo" width="50" height="50">  
 <img src="https://img.shields.io/npm/l/express" />
 <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/tyleradammartinez/SIG-Dashboard-Application" />
+    <img src="https://github.com/Nievz/Crypto_Clustering/blob/main/Images/cryptocurrency.png" alt="Logo" width="50" height="50"> 
 </p>
 
 
@@ -60,7 +47,6 @@
 ### Variable Plot
 
   <p align="center">
-    Beginning our analysis, we created a visual representation of each senator and state to help draw conclusions on whether or not the geographical location contained any noticeable increases in the number of transactions. In this section, we add geospatial data and use interactive visualizations with GeoViews and hvPlot to investigate the data's relationships. We construct our map using a modified data frame that combines Senators' locations with state coordinates.
   </p>
 
 <img src="https://github.com/Nievz/Crypto_Clustering/blob/main/Images/Variable%20plot.png"> 
@@ -68,7 +54,6 @@
 ### Elbow Curve
 
   <p align="center">
-    Continuing our analysis, we explore the transactions carried out by senators using an interactive visualization  in the form of a bar chart. We construct our bar chart utilizing Opensource data, which includes the transaction data pertaining to Senators. Based on the data we immediately noticed that 30% of all transactions carried out since 2013 have been done by the state of Georgia. Even more notably, David Purdue (R) is in large part responsible for a vast majority of the data set making up 27% of all transactions during his term in office from 2015 to 2021. Beyond Georgia, the data shows that some large state players are found within Alabama, Delaware, Kansas, and Rhode Island.
   </p>
 
 <img src="https://github.com/Nievz/Crypto_Clustering/blob/main/Images/Elbow%20Curve.png"> 
@@ -76,7 +61,6 @@
 ### Predicted Clusters
 
   <p align="center">
-    Moving on, using an interactive visualization in the form of a bar chart, we investigate the number of transactions carried out by senators in relation to their political party. We construct our bar chart utilizing Opensource data, which includes the transaction data pertaining to Senators. Based on our findings, we see that Republicans are responsible for approximately 4 million transactions whereas Democrats managed a much smaller but still notable 600 thousand.
   </p>
 
 <img src="https://github.com/Nievz/Crypto_Clustering/blob/main/Images/predicted%20cluster.png"> 
@@ -84,15 +68,24 @@
 ### Predicted Elbows
 
   <p align="center">
-    For this section of the analysis, we calculate the investments by industry using numerical and visual aggregation and then visualize the results as a bar chart. The goal of this visualization is to identify whether or not senators tend to transact more in industries subject to higher levels of federal regulation. Our findings concluded that not only do senators invest considerably into major banks, a widely recognized heavily regulated industry, but that major pharmaceuticals and semiconductors are not too far behind. In recent years, it is these industries where we have seen a notable increase in policies and legislation that can affect these markets. It is these same industries where senators are more likely to invest and more likely to receive considerable excess returns as we will soon come to find.
   </p>
 
 <img src="https://github.com/Nievz/Crypto_Clustering/blob/main/Images/predicted%20elbow.png"> 
 
-### Conclusion
+## Conclusion
 
   <p align="center">
-    In the end, does being in the Senate equal an advantage in the stock market? The empirical data is not so clear. However, one will be hard-pressed to find a senator who isn't at least performing at the market level. Moreover, we find certain senators doing considerably well for themselves and may warrant further investigation if we had the time. We hope that our findings shed light on the world of Senator trading... and even provide a few traders to follow!
+    
+  ## Question: What is the best value for k when using the PCA data?
+        Answer: 4
+
+  ## Question: Does it differ from the best k value found using the original data?
+        Answer: No, they are both the same value at 4
+ 
+ ## Question: After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?
+
+        Answer: Lower number of clusters will provide a higher level of optimization within the data. The higher the number of clusters the lower the inertia index.
+
   </p>
 
 <!-- LICENSE -->
@@ -103,10 +96,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [https://senatestockwatcher.com/]()
-* [https://finance.yahoo.com/]()
-* [https://github.com/othneildrew/Best-README-Template/blob/master/BLANK_README.md]()
+* [https://bootcampspot.instructure.com/courses/3828/assignments/57438?module_item_id=1009909]()
+* [https://scikit-learn.org/stable/modules/clustering.html#clustering]()
 * [https://holoviz.org/tutorial/Interlinked_Plots.html]()
 * [https://holoviz.org/tutorial/Interactive_Pipelines.html]()
 * [https://hvplot.holoviz.org/user_guide/Pandas_API.html]()
+* [https://www.youtube.com/watch?v=ikt0sny_ImY]()
+* [https://github.com/othneildrew/Best-README-Template/blob/master/BLANK_README.md]()
+  
   
